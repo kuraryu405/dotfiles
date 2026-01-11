@@ -1,0 +1,28 @@
+# Arch Linux 用の基本パッケージ一覧
+# 必要に応じてコメントアウトを外したり、好みのパッケージを追加してください。
+#
+# このファイルは install-arch.sh から読み込まれます。
+
+# シェル / ターミナル周り
+zsh
+tmux
+
+# 開発ツール
+git
+base-devel
+
+# エディタ / ツール
+neovim
+less
+
+# 便利ツール
+curl
+wget
+zip
+unzip
+
+# お好みでコメントアウトを外す候補
+# ripgrep
+# fd
+# fzf
+

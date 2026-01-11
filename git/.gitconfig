@@ -1,0 +1,26 @@
+[user]
+    name = Your Name
+    email = you@example.com
+
+[core]
+    editor = vim
+    autocrlf = input
+
+[color]
+    ui = auto
+
+[pull]
+    rebase = false
+
+[init]
+    defaultBranch = main
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    lg = log --oneline --graph --decorate --all
+
+# 必要に応じて user.name / user.email を自分のものに変更してください。
+
